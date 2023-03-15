@@ -1,0 +1,88 @@
+{
+  "Version": 1,
+  "Hash": "2SQe2XLmWKv2Ik94O1PCqkSExEQjTHOXLKqD6CdDMGM=",
+  "Source": "demo-api-old-payment-page",
+  "BasePath": "_content/demo-api-old-payment-page",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "demo-api-old-payment-page\\wwwroot",
+      "Source": "demo-api-old-payment-page",
+      "ContentRoot": "C:\\Users\\MordechaiKatan\\source\\repos\\‏‏demo-api-old-payment-page\\wwwroot\\",
+      "BasePath": "_content/demo-api-old-payment-page",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\MordechaiKatan\\source\\repos\\‏‏demo-api-old-payment-page\\wwwroot\\Client\\failure.html",
+      "SourceId": "demo-api-old-payment-page",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\MordechaiKatan\\source\\repos\\‏‏demo-api-old-payment-page\\wwwroot\\",
+      "BasePath": "_content/demo-api-old-payment-page",
+      "RelativePath": "Client/failure.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Client\\failure.html"
+    },
+    {
+      "Identity": "C:\\Users\\MordechaiKatan\\source\\repos\\‏‏demo-api-old-payment-page\\wwwroot\\Client\\index.html",
+      "SourceId": "demo-api-old-payment-page",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\MordechaiKatan\\source\\repos\\‏‏demo-api-old-payment-page\\wwwroot\\",
+      "BasePath": "_content/demo-api-old-payment-page",
+      "RelativePath": "Client/index.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Client\\index.html"
+    },
+    {
+      "Identity": "C:\\Users\\MordechaiKatan\\source\\repos\\‏‏demo-api-old-payment-page\\wwwroot\\Client\\index.js",
+      "SourceId": "demo-api-old-payment-page",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\MordechaiKatan\\source\\repos\\‏‏demo-api-old-payment-page\\wwwroot\\",
+      "BasePath": "_content/demo-api-old-payment-page",
+      "RelativePath": "Client/index.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Client\\index.js"
+    },
+    {
+      "Identity": "C:\\Users\\MordechaiKatan\\source\\repos\\‏‏demo-api-old-payment-page\\wwwroot\\Client\\success.html",
+      "SourceId": "demo-api-old-payment-page",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\MordechaiKatan\\source\\repos\\‏‏demo-api-old-payment-page\\wwwroot\\",
+      "BasePath": "_content/demo-api-old-payment-page",
+      "RelativePath": "Client/success.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Client\\success.html"
+    }
+  ]
+}

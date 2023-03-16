@@ -6,9 +6,7 @@ let resultData;
 const data = {
     Sum: 1,
     PaymentsNum: 1,
-    Description: "The destination of the payment",
-    Name: "John Smit",
-    Phone: "0500000000"
+    Description: "The destination of the payment"
 }
 
 const options = {
@@ -25,16 +23,3 @@ async function getPaymentLink() {
     console.log(data.message);
     window.open(data.message);
 }
-
-window.addEventListener("growWalletChange", (result) => {
-    console.log("result:", result.detail);
-    let res = result.detail;
-    if (res.status === 1) {
-        resultStatus = true;
-        resultData = res.data;
-    }
-    if (res.state === "close" && resultStatus) {
-        console.log(resultData) //or display success page with resultData
-        window.location.href = "/success"
-    }
-});

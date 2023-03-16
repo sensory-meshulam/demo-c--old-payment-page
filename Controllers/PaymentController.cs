@@ -10,9 +10,7 @@ namespace demo_api_old.Controllers
     [ApiController]
     public class PaymentController
     {
-        const string MeshulamPageCode = "539888f537b7";
-        //const string MeshulamApiKey = "b60e1d4cbd29";
-        const string MeshulamUserId = "cf2ebf779f618e59";
+      
         const string MeshulamApiUrl = "https://sandbox.meshulam.co.il/api/light/server/1.0/";
 
         [HttpPost]
@@ -33,9 +31,10 @@ namespace demo_api_old.Controllers
             form.Add(new StringContent(successUrl), "successUrl");
             form.Add(new StringContent(failureUrl), "cancelUrl");
             form.Add(new StringContent(req.Description), "description");
-            // Here you can use the two parameters you chose for your page-code. In this case full name and phone number
-            form.Add(new StringContent(req.Name), "pageField[fullName]");
-            form.Add(new StringContent(req.Phone), "pageField[phone]");
+            // Here you can use the two parameters you chose for your payment-page. In this case full name and phone number.
+            // You can send them here, or not and the user will fill them in
+            form.Add(new StringContent("John Smit"), "pageField[fullName]");
+            form.Add(new StringContent("0500000000"), "pageField[phone]");
             // With the help of cFields you can transfer information that will be retrieved on the success page (limited to 5 cFields)
             form.Add(new StringContent(pageCode), "cField1");
             form.Add(new StringContent("blabla"), "cField2");

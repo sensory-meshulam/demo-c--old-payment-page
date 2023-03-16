@@ -11,7 +11,7 @@ namespace demo_api_old.Controllers
     public class PaymentController
     {
         const string MeshulamPageCode = "539888f537b7";
-        const string MeshulamApiKey = "b60e1d4cbd29";
+        //const string MeshulamApiKey = "b60e1d4cbd29";
         const string MeshulamUserId = "cf2ebf779f618e59";
         const string MeshulamApiUrl = "https://sandbox.meshulam.co.il/api/light/server/1.0/";
 
@@ -32,12 +32,14 @@ namespace demo_api_old.Controllers
             form.Add(new StringContent(req.PaymentsNum.ToString()), "paymentNum"); // מספר תשלומים
             form.Add(new StringContent(successUrl), "successUrl");
             form.Add(new StringContent(failureUrl), "cancelUrl");
-            form.Add(new StringContent(req.Description), "description"); // TODO:: Fix 
+            form.Add(new StringContent(req.Description), "description");
+            // Here you can use the two parameters you chose for your page-code. In this case full name and phone number
             form.Add(new StringContent(req.Name), "pageField[fullName]");
             form.Add(new StringContent(req.Phone), "pageField[phone]");
-            form.Add(new StringContent("blabla"), "cField1");
+            // With the help of cFields you can transfer information that will be retrieved on the success page (limited to 5 cFields)
+            form.Add(new StringContent(pageCode), "cField1");
             form.Add(new StringContent("blabla"), "cField2");
-            form.Add(new StringContent(pageCode), "cField3");
+            form.Add(new StringContent("blabla"), "cField3");
             form.Add(new StringContent("blabla"), "cField4");
             form.Add(new StringContent("blabla"), "cField5");
 

@@ -750,11 +750,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\MordechaiKatan\\source\\repos\\‏‏demo-api-old-payment-page\\demo-api-old-payment-page.csproj",
+      "projectUniqueName": "C:\\code\\meshulam\\demos-for-documentation\\‏‏demo-api-old-payment-page-c-sharp\\demo-api-old-payment-page.csproj",
       "projectName": "demo-api-old-payment-page",
-      "projectPath": "C:\\Users\\MordechaiKatan\\source\\repos\\‏‏demo-api-old-payment-page\\demo-api-old-payment-page.csproj",
+      "projectPath": "C:\\code\\meshulam\\demos-for-documentation\\‏‏demo-api-old-payment-page-c-sharp\\demo-api-old-payment-page.csproj",
       "packagesPath": "C:\\Users\\MordechaiKatan\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\MordechaiKatan\\source\\repos\\‏‏demo-api-old-payment-page\\obj\\",
+      "outputPath": "C:\\code\\meshulam\\demos-for-documentation\\‏‏demo-api-old-payment-page-c-sharp\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\MordechaiKatan\\AppData\\Roaming\\NuGet\\NuGet.Config",

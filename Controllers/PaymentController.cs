@@ -17,7 +17,12 @@ namespace demo_api_old.Controllers
         public async Task<GenericResultDto> GetPaymentLink([FromBody] GetPaymentLinkRequest req)
         {
             var result = new GenericResultDto();
-            var pageCode = "b73ca07591f8";
+            var pageCode = "b73ca07591f8"; // generic-page
+                //credit: '0b7a16e03b25'
+                //google-pay: '77a2993849cd'
+                //apple-pay: '9eeea7787d67'
+                //bit: 'e20c9458e9f3'
+                //bit QR: '39bf173ce7d0'
             var userId = "4ec1d595ae764243";
             var successUrl = "https://localhost:44374/Client/success.html?success=1";
             var failureUrl = "https://localhost:44374/Client/failure.html?failure=1";
